@@ -2,7 +2,7 @@ let fs = require('fs');
 let expect = require('chai').expect
 let assert = require('chai').assert
 
-describe('AppModule', function() {
+describe('AppModule', function () {
   it(`should import the ProductService @product-service-imported-into-app-module`, function () {
     let file;
     try {
